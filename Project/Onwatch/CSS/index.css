@@ -1,0 +1,129 @@
+@font-face{
+	font-family: 'Socialico';
+	src:'font/Socialico/Socialico.ttf';
+}
+
+*{
+	margin:0vw;
+	padding:0vw;
+}
+
+@font-face {
+	font-family: qwer;
+	src:url("font/FontAwesome.otf");
+}
+
+@font-face {
+	font-family: hehe;
+	src:url("font/Xerox Sans Serif Narrow Oblique.ttf");
+}
+
+@font-face {
+	font-family: ruru;
+	src:url("font/Xenotron.ttf");
+}
+
+@font-face {
+	font-family: hihi;
+	src:url("font/Xoxoxa.ttf");
+}
+
+@font-face {
+	font-family: huhu;
+	src:url("font/Xipital -BRK-.ttf");
+}
+
+@font-face {
+	font-family: logo123;
+	src:url("font/Zekton Dots.ttf");
+}
+
+body{
+   background-image: url('image/bg1.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   min-height: 100vh;
+ }
+
+h1{
+	color: turquoise;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+h4{
+	color: turquoise;
+	text-align: center;
+}
+button{
+	align-content: center;
+}
+#header{
+	background-color: rgb(102, 118, 129);
+	background-size: 100%;
+	width:90%;
+	display: inline-block;
+	margin: 0;
+	height: 5vw;
+	position: absolute;
+	top: 10px;
+	margin-bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#logo{
+	width: 40%;
+	display: inline-block;
+}
+
+#logo a{
+	text-decoration: none;
+	color: black;
+}
+
+#navigation ul li a.active{
+	color: rgb(131, 131, 131);
+}
+
+a, a:hover, a:focus, a:active {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+
+#logopic{
+	width: 30%;
+	height: 5vw;
+}
+
+#navigation{
+	display: inline-block;
+	margin-left: 1%;
+}
+
+#navigation ul{
+	margin: 0;
+}
+
+#navigation ul a{
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.link {
+	color: black;
+	display: inline-block;
+	padding: 15px 20px;
+	
+}
+.gallery img{
+	width: 150px;
+}
+
+.link:hover{
+	background-color: Gray;
+}
+
+

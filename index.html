@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">  
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+        
+        <!-- home -->
+        <section class="home">
+            <div class="main">
+                <h1 class="headings">My Portfolio<br></h1>
+                
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about">
+            
+            <div id="pic">
+                <img src="img/prof.jpg" alt="">
+                <div id="intro"> 
+                    <h1>About me</h1>
+                    <h2>Kenneth Reginaldo</h2>
+                    <p>I'm Christopher Kenneth B. Reginaldo currently taking 
+                        Bachelor of Science in Information Technology at CLSU. <br>
+                        I love cars especially the 90's model of Honda Civic and I also
+                        love playing sports and computer games.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects-->
+
+        <section class="projects" id="projects">
+            <h2 class="projects-title">Project</h2>
+            <div class="projects-container">
+              <div class="project-container project-card">
+                <img
+                  src="img/onwatch.png"
+                  alt="OnWatch"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="project-title">OnWatch</h3>
+                <p class="project-details">
+                 This is an online movie ticketing system
+                  
+                </p>
+                <a href="https://github.com/Kreatyken/onwatch" target="_blank" class="project-link">Check it Out</a>
+              </div>
+              <div class="project-container project-card">
+                <img
+                src="img/HH.png"
+                  alt="car-parts"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="project-title">Car Parts</h3>
+                <p class="project-details">
+                 This is a online selling of car parts
+                </p>
+                <a href="https://github.com/Kreatyken/Hentide-Hub.git" target="_blank" class="project-link">Check it Out</a>
+              </div>
+              <div class="project-container project-card">
+                <img
+                src="img/object.jpg"
+                  alt="Hentide-Hub"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="project-title">Object Detector</h3>
+                <p class="project-details">
+                  This will scan and tell what that object is.
+                </p>
+                <a href="https://github.com/Kreatyken/Object-detector" target="_blank" class="project-link">Check it Out</a>
+              </div>
+            </div>
+          </section>
+          
+          <!--skills -->
+
+          <section class="skills" id="skills">
+            <h2 class="skill-header">My Top Skills</h2>
+        
+            <div  class="skills-wrapper">
+              <div class="first-set animate__animated animate__pulse">
+                <img
+                  src="img/c++.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                  
+                />
+                <img
+                  src="img/js.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="img/html.jpg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+        
+              <div class="second-set animate__animated animate__pulse" >
+                <img
+                  src="img/php.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="img/AS.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="img/mysql.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+        
+                <div class="third-set animate__animated animate__pulse"></div>
+                <img
+                src="img/css.jpg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              </div>
+            </div>
+           
+            
+          </section>
+          <section class="contact" id="contact">
+            <h2 class="skill-header">Get In touch</h2>
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Philippines</option>
+                    <option value="canada">Congo</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+
+
+        </section>
+          <footer class="foot">
+            <p class="copy">&copy; Alrights Reserved 2021</p>
+            <p class="copy">
+                My Portfolio by
+              <a href="https://www.facebook.com/christopherkenneth.reginaldo.7/" target="_blank"
+                >Kenneth B. Reginaldo</a>
+                <p>0915-219-5170</p>
+            </p>
+           
+          </footer>
+
+             </body>
+</html>
